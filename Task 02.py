@@ -1,3 +1,7 @@
-def greet_user(name, age):
-    print("Hello, {name}! You are {age} years old.")
-greet_user("Rajnesh",22)
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+result = check_even_odd(12)
+print(result)
